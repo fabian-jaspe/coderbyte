@@ -92,6 +92,7 @@ function CityTraffic(strArr) {
         neighbourCities.forEach(city => graph.addPath(node1, city));
     }
 
+ d
     const cityGraph = new Graph();
     const cities = [];
     strArr.forEach(c => addPaths(cityGraph, c));
